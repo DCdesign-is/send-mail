@@ -2,9 +2,9 @@
 
 $para = "xxxxx@hotmail.com";
 $nombre = $_POST["nombre"];
-$asunto = "Solicitud de información por ".$_POST["name"];
+$asunto = "Solicitud de información por: ".$_POST["name"];
 
-$cuerpo .= "<h2>Reciba un Cordial Saludo,</h2><br>El siguiente usuario ha solicitado informacion acerca de XXXXX:"."<br><br>";
+$cuerpo .= "<h2>Reciba un Cordial Saludo,</h2><br>El siguiente usuario ha solicitado información a través de su sitio web:"."<br><br>";
 $cuerpo .= "<strong>Nombre:</strong> ".$_POST["name"]."<br>";
 $cuerpo .= "<strong>E-mail:</strong> ".$_POST["phone"]."<br>";
 $cuerpo .= "<strong>Teléfono:</strong> ".$_POST["mail"]."<br>";
